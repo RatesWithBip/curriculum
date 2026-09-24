@@ -1,0 +1,11 @@
+# files a notebook writes when it runs
+**/notebooks/*.csv
+**/notebooks/data/
+**/notebooks/outputs.json
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+.DS_Store
+Thumbs.db
