@@ -11,3 +11,9 @@ Courses on interest rate markets, with the code behind every number.
 - **Code** (the notebooks and any other source files): [MIT](LICENSE). Use it, change it, build on it.
 - **Books** (everything in a course's `book/` folder): [CC BY-NC-ND 4.0](LICENSE-BOOKS.md). Share them freely,
   unchanged, with credit, for non-commercial purposes.
+
+## Support
+
+Everything here is free and stays free. If it helped you, you can buy Bip a coffee:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rateswithbip)

@@ -60,6 +60,12 @@ The notebooks are under the [MIT licence](../LICENSE). The book and its cover ar
 [CC BY-NC-ND 4.0](../LICENSE-BOOKS.md): share them freely, unchanged, with credit, for non-commercial purposes.
 The RBA data in Episodes 1 and 2 remains subject to the RBA's own terms.
 
+## Support
+
+Everything here is free and stays free. If it helped you, you can buy Bip a coffee:
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/rateswithbip)
+
 ## Disclaimer
 
 For education only. Nothing here is financial, investment, legal or tax advice.
