@@ -1,11 +1,13 @@
 # SOFR, FX & Cross-Currency Curves
 
+<img src="book/cover.jpg" alt="SOFR, FX & Cross-Currency Curves book cover" width="200" align="right">
+
 The US dollar money market and SOFR, AUD/USD spot, forwards and FX swaps, BBSW/SOFR cross-currency basis swaps,
 and an Australian dollar curve for US dollar collateral, with QuantLib Python.
-10 episodes, a notebook for each. The sequel to
+10 episodes, a notebook for each, and a book that goes with them. The sequel to
 [AUD Swaps & Curves](../aud-swaps-and-curves/): it reuses that course's AONIA and BBSW curves.
 
-Every number in the videos is computed by these notebooks.
+Every number in the videos and the book is computed by these notebooks.
 
 ## Episodes
 
@@ -21,6 +23,11 @@ Every number in the videos is computed by these notebooks.
 | 8 | **Building the Curve**<br>An AUD curve for US dollar collateral, from FX swaps and basis swaps | [s2e08_building_the_curve.ipynb](notebooks/s2e08_building_the_curve.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/sofr-fx-and-cross-currency-curves/notebooks/s2e08_building_the_curve.ipynb) |
 | 9 | **Pricing with the Curves**<br>Long-dated FX forwards and an off-market basis swap | [s2e09_pricing.ipynb](notebooks/s2e09_pricing.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/sofr-fx-and-cross-currency-curves/notebooks/s2e09_pricing.ipynb) |
 | 10 | **Risk**<br>What a basis swap and an FX forward are exposed to, and how to hedge | [s2e10_risk.ipynb](notebooks/s2e10_risk.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/sofr-fx-and-cross-currency-curves/notebooks/s2e10_risk.ipynb) |
+
+## The book
+
+[**SOFR, FX & Cross-Currency Curves** (PDF, 51 pages)](book/SOFR-FX-and-Cross-Currency-Curves.pdf): one chapter per episode, with the derivations, the hand
+checks next to QuantLib's results, and the sources for every market convention.
 
 ## Run the notebooks
 
@@ -57,12 +64,13 @@ Rates with Bip is not affiliated with the New York Fed. The New York Fed does no
 
 Market conventions follow the New York Fed and the ARRC (SOFR), CME's SOFR futures rules as filed with the CFTC,
 AFMA's *Interest Rate Derivative Conventions* and its BBSW/SOFR cross-currency term sheet, the RBA, the BIS and
-QuantLib's documentation. Each episode's video description lists the sources it relies on. Conventions change: check the current documents before
+QuantLib's documentation. Each chapter of the book lists the sources it relies on. Conventions change: check the current documents before
 relying on them.
 
 ## Licence
 
-The notebooks are under the [MIT licence](../LICENSE).
+The notebooks are under the [MIT licence](../LICENSE). The book and its cover are under
+[CC BY-NC-ND 4.0](../LICENSE-BOOKS.md): share them freely, unchanged, with credit, for non-commercial purposes.
 The New York Fed and Federal Reserve Board data in Episodes 1, 2 and 4 remain subject to their publishers' terms.
 
 ## Support
