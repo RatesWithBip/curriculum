@@ -26,7 +26,7 @@ Every number in the videos and the book is computed by these notebooks.
 
 ## The book
 
-[**SOFR, FX & Cross-Currency Curves** (PDF, 51 pages)](book/SOFR-FX-and-Cross-Currency-Curves.pdf): one chapter per episode, with the derivations, the hand
+[**SOFR, FX & Cross-Currency Curves** (PDF, 62 pages)](book/SOFR-FX-and-Cross-Currency-Curves.pdf): one chapter per episode, with the derivations, the hand
 checks next to QuantLib's results, and the sources for every market convention.
 
 ## Run the notebooks
