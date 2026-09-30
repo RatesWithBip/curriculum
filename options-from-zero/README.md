@@ -1,6 +1,6 @@
 # Options from Zero
 
-<img src="book/cover-part-2.jpg" alt="Options from Zero Part 2 book cover" width="160" align="right"><img src="book/cover.jpg" alt="Options from Zero Part 1 book cover" width="160" align="right">
+<img src="book/cover-part-3.jpg" alt="Options from Zero Part 3 book cover" width="160" align="right"><img src="book/cover-part-2.jpg" alt="Options from Zero Part 2 book cover" width="160" align="right"><img src="book/cover.jpg" alt="Options from Zero Part 1 book cover" width="160" align="right">
 
 Options from the very beginning, with Python and QuantLib. No options, calculus or probability assumed.
 
@@ -8,7 +8,8 @@ Options from the very beginning, with Python and QuantLib. No options, calculus 
 American options, volatility and the Black-Scholes formula.
 **Part 2** (Episodes 11-21): Brownian motion and Itô's lemma, the Black-Scholes equation from hedging, the Greeks and
 explaining P&L, Monte Carlo, hedging and implied volatility, and options on AUD/USD and on BBSW.
-Part 3 (the volatility smile and its models) follows.
+**Part 3** (Episodes 22-31): prices as expectations, change of measure, Feynman-Kac, fat tails and the AUD/USD smile,
+SVI and arbitrage, implied densities, local volatility, Heston, SABR, and an AUD/USD options book.
 
 Each episode has a notebook here, and each part a book. Every number in the videos and the books is computed by these notebooks.
 
@@ -43,10 +44,26 @@ Each episode has a notebook here, and each part a book. Every number in the vide
 | 20 | **FX Options: Garman-Kohlhagen**<br>Black-Scholes for the Australian dollar | [s3e20_fx_options.ipynb](notebooks/s3e20_fx_options.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e20_fx_options.ipynb) |
 | 21 | **Rates Options: Black-76 and Bachelier**<br>Caplets on BBSW | [s3e21_caps_black_bachelier.ipynb](notebooks/s3e21_caps_black_bachelier.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e21_caps_black_bachelier.ipynb) |
 
+## Part 3: the volatility smile and its models
+
+| # | Episode | Notebook | |
+|---|---|---|---|
+| 22 | **An Expectation Is an Integral**<br>Maths pit stop: an average is an area | [s3e22_expectation_integral.ipynb](notebooks/s3e22_expectation_integral.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e22_expectation_integral.ipynb) |
+| 23 | **Changing the Odds: Martingales and Girsanov**<br>Reweight the paths, not the prices | [s3e23_change_of_measure.ipynb](notebooks/s3e23_change_of_measure.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e23_change_of_measure.ipynb) |
+| 24 | **Three Roads, One Price**<br>Replicate, hedge or average | [s3e24_three_roads.ipynb](notebooks/s3e24_three_roads.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e24_three_roads.ipynb) |
+| 25 | **The Smile: Where Black-Scholes Breaks**<br>Fat tails, and one volatility per strike | [s3e25_the_smile.ipynb](notebooks/s3e25_the_smile.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e25_the_smile.ipynb) |
+| 26 | **Building an Arbitrage-Free Surface: SVI**<br>A curve through the quotes, with no free money | [s3e26_svi_surface.ipynb](notebooks/s3e26_svi_surface.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e26_svi_surface.ipynb) |
+| 27 | **What the Market Prices: Implied Densities**<br>The smile is a probability distribution in disguise | [s3e27_implied_density.ipynb](notebooks/s3e27_implied_density.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e27_implied_density.ipynb) |
+| 28 | **Local Volatility (Dupire)**<br>Fits today exactly, gets tomorrow wrong | [s3e28_local_vol.ipynb](notebooks/s3e28_local_vol.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e28_local_vol.ipynb) |
+| 29 | **Stochastic Volatility: The Heston Model**<br>Let volatility move by itself | [s3e29_heston.ipynb](notebooks/s3e29_heston.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e29_heston.ipynb) |
+| 30 | **SABR: The Rates Desk's Smile**<br>Level, skew, curvature, and a backbone | [s3e30_sabr.ipynb](notebooks/s3e30_sabr.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e30_sabr.ipynb) |
+| 31 | **Series Finale: An AUD/USD Options Book**<br>Greeks tell you what to hedge; revaluation tells you what happened | [s3e31_capstone.ipynb](notebooks/s3e31_capstone.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/options-from-zero/notebooks/s3e31_capstone.ipynb) |
+
 ## The books
 
 - [**Options from Zero, Part 1** (PDF, 43 pages)](book/Options-from-Zero-Part-1.pdf): one chapter per episode of Part 1, with the derivations, the hand checks next to QuantLib's results, a glossary, and the Part 1 checkpoint with worked answers.
 - [**Options from Zero, Part 2** (PDF, 43 pages)](book/Options-from-Zero-Part-2.pdf): one chapter per episode of Part 2: Brownian motion and Itô, the Black-Scholes equation from hedging, the Greeks and P&L attribution, Monte Carlo, hedging and implied volatility, Garman-Kohlhagen and Black/Bachelier caplets, with a glossary and the Part 2 checkpoint.
+- [**Options from Zero, Part 3** (PDF, 35 pages)](book/Options-from-Zero-Part-3.pdf): one chapter per episode of Part 3: expectations and Girsanov, Feynman-Kac, fat tails and the AUD/USD smile, SVI and arbitrage, implied densities, local volatility, Heston, SABR and an options book, with a glossary and the final checkpoint.
 
 ## Run the notebooks
 
@@ -68,23 +85,26 @@ exactly.
 
 - The share, its option prices, its volatility and the interest rate are illustrative, made up for teaching.
   They are not market data.
-- Episodes 20-21 use the illustrative AONIA, BBSW, SOFR and AUD/USD quotes of the other two courses (the notebooks
-  write the quote files). They are not market data.
-- Episodes 9 and 19 use the AUD/USD noon buying rates in New York from the Federal Reserve Board's H.10 release.
+- Episodes 20-21 and 30 use the illustrative AONIA, BBSW, SOFR and AUD/USD quotes of the other two courses (the
+  notebooks write the quote files). They are not market data.
+- Episodes 25-29 and 31 use illustrative AUD/USD volatility quotes (at-the-money, 25- and 10-delta risk reversals and
+  butterflies), and Episode 30 an illustrative caplet smile. They are not market data.
+- Episodes 9, 19 and 25 use the AUD/USD noon buying rates in New York from the Federal Reserve Board's H.10 release.
   Source: Board of Governors of the Federal Reserve System.
 
 ## Sources
 
 Facts about listed options follow ASX's published material; the history in Episode 10 follows the Royal Swedish
 Academy of Sciences' 1997 press release; AUD/USD option conventions follow Reiswich and Wystup (2009); the history of
-negative policy rates follows the European Central Bank's and the Bank of Japan's own publications. Each chapter of the
-books lists the sources it relies on.
+negative policy rates follows the European Central Bank's and the Bank of Japan's own publications; the arbitrage
+tests in Episode 26 follow Gatheral and Jacquier (2014); the April 2025 AUD/USD moves in Episode 25 follow the Reserve
+Bank of Australia's own account. Each chapter of the books lists the sources it relies on.
 
 ## Licence
 
 The notebooks are under the [MIT licence](../LICENSE). The books and their covers are under
 [CC BY-NC-ND 4.0](../LICENSE-BOOKS.md): share them freely, unchanged, with credit, for non-commercial purposes.
-The Federal Reserve Board data in Episodes 9 and 19 remain subject to the Board's terms.
+The Federal Reserve Board data in Episodes 9, 19 and 25 remain subject to the Board's terms.
 
 ## Support
 

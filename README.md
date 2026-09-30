@@ -6,7 +6,7 @@ Courses on interest rate markets, with the code behind every number.
 |---|---|
 | [AUD Swaps & Curves](aud-swaps-and-curves/) | AONIA and BBSW swaps, curve building, basis swaps, DV01 and bucketed risk in QuantLib Python: 9 notebooks and a 60-page book |
 | [SOFR, FX & Cross-Currency Curves](sofr-fx-and-cross-currency-curves/) | SOFR, AUD/USD forwards and FX swaps, BBSW/SOFR basis swaps and an AUD curve for US dollar collateral in QuantLib Python: 10 notebooks and a 62-page book |
-| [Options from Zero](options-from-zero/) | Options from the beginning. Part 1: payoffs, arbitrage, put-call parity, binomial trees, risk-neutral probability, volatility and Black-Scholes. Part 2: Itô, hedging, the Greeks, Monte Carlo, implied volatility, AUD/USD options and BBSW caps: 21 notebooks and two books (43 and 43 pages) |
+| [Options from Zero](options-from-zero/) | Options from the beginning. Part 1: payoffs, arbitrage, put-call parity, binomial trees, risk-neutral probability, volatility and Black-Scholes. Part 2: Itô, hedging, the Greeks, Monte Carlo, implied volatility, AUD/USD options and BBSW caps. Part 3: the smile, SVI, local vol, Heston and SABR: 31 notebooks and three books (43, 43 and 35 pages) |
 
 ## Licence
 
