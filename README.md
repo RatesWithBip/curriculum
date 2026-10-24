@@ -8,6 +8,7 @@ Courses on interest rate markets, with the code behind every number.
 | [SOFR, FX & Cross-Currency Curves](sofr-fx-and-cross-currency-curves/) | SOFR, AUD/USD forwards and FX swaps, BBSW/SOFR basis swaps and an AUD curve for US dollar collateral in QuantLib Python: 10 notebooks and a 62-page book |
 | [Options from Zero](options-from-zero/) | Options from the beginning. Part 1: payoffs, arbitrage, put-call parity, binomial trees, risk-neutral probability, volatility and Black-Scholes. Part 2: Itô, hedging, the Greeks, Monte Carlo, implied volatility, AUD/USD options and BBSW caps. Part 3: the smile, SVI, local vol, Heston and SABR: 31 notebooks and three books (43, 43 and 35 pages) |
 | [XVA: The Price After the Price](xva-the-price-after-the-price/) | CVA, DVA, FVA, KVA and MVA from first principles: CDS curves, Hull-White exposure, netting, collateral, Basel capital, initial margin, wrong-way risk and a cross-currency capstone: 15 notebooks and a 63-page book |
+| [Stochastic Calculus from Zero](stochastic-calculus-from-zero/) | The maths behind the models, with Python. Part 1: probability on coin worlds, filtrations, conditional expectation, martingales, random walks and changing the odds, with exercises and answers: 8 notebooks and one book (43 pages) |
 
 ## Licence
 
