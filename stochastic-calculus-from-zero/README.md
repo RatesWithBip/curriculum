@@ -1,6 +1,6 @@
 # Stochastic Calculus from Zero
 
-<img src="book/cover.jpg" alt="Stochastic Calculus from Zero Part 1 book cover" width="160" align="right">
+<img src="book/cover-part-2.jpg" alt="Stochastic Calculus from Zero Part 2 book cover" width="160" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus from Zero Part 1 book cover" width="160" align="right">
 
 The maths behind the models, from coin tosses to Itô, with Python. It goes a level deeper than
 [Options from Zero](../options-from-zero/): where that course uses Itô's lemma, this one shows why it has to be true. School calculus and
@@ -9,7 +9,10 @@ the normal distribution are all you need to start.
 **Part 1** (Episodes 1-8): why the chain rule breaks on a random path, probability on eight coin worlds, the law of
 large numbers, information and filtrations, conditional expectation, martingales, random walks and the Markov property,
 and changing the odds (the Radon-Nikodym derivative).
-Parts 2-4 (Brownian motion and the Itô integral; SDEs, Girsanov and pricing; interest rates and jumps) follow.
+**Part 2** (Episodes 9-16): Brownian motion defined, its strange paths, quadratic variation and why volatility is
+measurable but drift isn't, martingales from Brownian motion, the Itô integral and its isometry, the Itô-Doeblin
+formula (the chain rule, fixed), and two correlated Brownian motions.
+Parts 3-4 (SDEs, Girsanov and pricing; interest rates and jumps) follow.
 
 Each episode has a notebook here, ending with five exercises (three by hand, two in code) and their solutions; the
 code solutions check themselves. Every number in the videos and the books is computed by these notebooks.
@@ -27,14 +30,28 @@ code solutions check themselves. Every number in the videos and the books is com
 | 7 | **Random Walks: Only Now Matters**<br>Independent steps and the Markov property | [s5e07_random_walk_markov.ipynb](notebooks/s5e07_random_walk_markov.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e07_random_walk_markov.ipynb) |
 | 8 | **Changing the Odds**<br>Same worlds, different weights | [s5e08_changing_the_odds.ipynb](notebooks/s5e08_changing_the_odds.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e08_changing_the_odds.ipynb) |
 
+## Part 2: Brownian motion and the Itô integral
+
+| # | Episode | Notebook | |
+|---|---|---|---|
+| 9 | **Brownian Motion, Defined**<br>Four properties, and why the walk converges | [s5e09_brownian_motion_defined.ipynb](notebooks/s5e09_brownian_motion_defined.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e09_brownian_motion_defined.ipynb) |
+| 10 | **Brownian Paths Are Strange**<br>Continuous everywhere, smooth nowhere | [s5e10_strange_paths.ipynb](notebooks/s5e10_strange_paths.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e10_strange_paths.ipynb) |
+| 11 | **Quadratic Variation: What You Can Measure**<br>Volatility yes, drift no | [s5e11_quadratic_variation.ipynb](notebooks/s5e11_quadratic_variation.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e11_quadratic_variation.ipynb) |
+| 12 | **Martingales from Brownian Motion**<br>W, W² − t and the exponential | [s5e12_brownian_martingales.ipynb](notebooks/s5e12_brownian_martingales.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e12_brownian_martingales.ipynb) |
+| 13 | **Building the Itô Integral**<br>Left, middle or right? | [s5e13_ito_integral.ipynb](notebooks/s5e13_ito_integral.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e13_ito_integral.ipynb) |
+| 14 | **No Peeking, No Free Lunch**<br>The Itô isometry and fair trading gains | [s5e14_ito_isometry.ipynb](notebooks/s5e14_ito_isometry.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e14_ito_isometry.ipynb) |
+| 15 | **The Itô-Doeblin Formula**<br>The chain rule, fixed | [s5e15_ito_doeblin.ipynb](notebooks/s5e15_ito_doeblin.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e15_ito_doeblin.ipynb) |
+| 16 | **Two Brownian Motions**<br>Correlation, ρ dt and the product rule | [s5e16_two_brownian_motions.ipynb](notebooks/s5e16_two_brownian_motions.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e16_two_brownian_motions.ipynb) |
+
 ## The books
 
 - [**Stochastic Calculus from Zero, Part 1** (PDF, 43 pages)](book/Stochastic-Calculus-from-Zero-Part-1.pdf): one chapter per episode of Part 1, with the definitions and short proofs the videos leave out, all 40 exercises with full answers, the Part 1 checkpoint, a glossary and further reading.
+- [**Stochastic Calculus from Zero, Part 2** (PDF, 39 pages)](book/Stochastic-Calculus-from-Zero-Part-2.pdf): one chapter per episode of Part 2, with the proofs: quadratic variation in mean square, the construction of the Itô integral, the isometry, the Itô-Doeblin formula and Lévy's characterisation, all 40 exercises with full answers, the Part 2 checkpoint, a glossary and further reading.
 
 ## Run the notebooks
 
-**In Google Colab**, nothing to install: click its **Open in Colab** button above and run the cells in order. Part 1
-needs only numpy, pandas and matplotlib.
+**In Google Colab**, nothing to install: click its **Open in Colab** button above and run the cells in order. Parts 1
+and 2 need only numpy, pandas and matplotlib.
 
 **On your own computer:**
 
@@ -48,8 +65,9 @@ to it; git ignores it. Simulations use fixed random seeds, so they repeat exactl
 
 ## Data
 
-There is none. The coin world (a share at 100 that each toss moves up or down 20%, heads with a 60% chance, a deposit
-growing 2% a step) is made up for teaching, and every path and toss is simulated.
+There is none. The coin world of Part 1 (a share at 100 that each toss moves up or down 20%, heads with a 60% chance, a
+deposit growing 2% a step), the share of Part 2 (volatility 20%, drift 8%) and its correlation of 0.5 are made up for
+teaching, and every path and toss is simulated.
 
 ## Further reading
 
