@@ -1,6 +1,6 @@
 # Stochastic Calculus from Zero
 
-<img src="book/cover-part-3.jpg" alt="Stochastic Calculus from Zero Part 3 book cover" width="160" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus from Zero Part 2 book cover" width="160" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus from Zero Part 1 book cover" width="160" align="right">
+<img src="book/cover-part-4.jpg" alt="Stochastic Calculus from Zero Part 4 book cover" width="160" align="right"><img src="book/cover-part-3.jpg" alt="Stochastic Calculus from Zero Part 3 book cover" width="160" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus from Zero Part 2 book cover" width="160" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus from Zero Part 1 book cover" width="160" align="right">
 
 The maths behind the models, from coin tosses to Itô, with Python. It goes a level deeper than
 [Options from Zero](../options-from-zero/): where that course uses Itô's lemma, this one shows why it has to be true. School calculus and
@@ -15,7 +15,8 @@ formula (the chain rule, fixed), and two correlated Brownian motions.
 **Part 3** (Episodes 17-25): stochastic differential equations, the Vasicek and CIR short-rate models, simulating SDEs
 (Euler and Milstein), Girsanov's theorem, martingale representation and hedging, Feynman-Kac, the reflection principle
 and barrier options, and change of numéraire (the forward measure).
-Part 4 (interest rates and jumps) follows.
+**Part 4** (Episodes 26-28): fitting today's curve (Hull-White and HJM), jumps (Poisson processes and Merton's model),
+and a capstone: one option on an AONIA zero-coupon bond, priced four ways. The series is complete.
 
 Each episode has a notebook here, ending with five exercises (three by hand, two in code) and their solutions; the
 code solutions check themselves. Every number in the videos and the books is computed by these notebooks.
@@ -60,17 +61,26 @@ code solutions check themselves. Every number in the videos and the books is com
 | 24 | **The Reflection Principle**<br>Barrier options | [s5e24_reflection_barriers.ipynb](notebooks/s5e24_reflection_barriers.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e24_reflection_barriers.ipynb) |
 | 25 | **Change of Numéraire**<br>The forward measure | [s5e25_forward_measure.ipynb](notebooks/s5e25_forward_measure.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e25_forward_measure.ipynb) |
 
+## Part 4: rates and jumps
+
+| # | Episode | Notebook | |
+|---|---|---|---|
+| 26 | **The Whole Curve**<br>Hull-White and HJM | [s5e26_hull_white_hjm.ipynb](notebooks/s5e26_hull_white_hjm.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e26_hull_white_hjm.ipynb) |
+| 27 | **Jumps**<br>Poisson processes and Merton | [s5e27_jumps_merton.ipynb](notebooks/s5e27_jumps_merton.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e27_jumps_merton.ipynb) |
+| 28 | **One AUD Bond Option, Four Ways**<br>The series finale | [s5e28_capstone.ipynb](notebooks/s5e28_capstone.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-from-zero/notebooks/s5e28_capstone.ipynb) |
+
 ## The books
 
 - [**Stochastic Calculus from Zero, Part 1** (PDF, 43 pages)](book/Stochastic-Calculus-from-Zero-Part-1.pdf): one chapter per episode of Part 1, with the definitions and short proofs the videos leave out, all 40 exercises with full answers, the Part 1 checkpoint, a glossary and further reading.
 - [**Stochastic Calculus from Zero, Part 2** (PDF, 39 pages)](book/Stochastic-Calculus-from-Zero-Part-2.pdf): one chapter per episode of Part 2, with the proofs: quadratic variation in mean square, the construction of the Itô integral, the isometry, the Itô-Doeblin formula and Lévy's characterisation, all 40 exercises with full answers, the Part 2 checkpoint, a glossary and further reading.
 - [**Stochastic Calculus from Zero, Part 3** (PDF, 50 pages)](book/Stochastic-Calculus-from-Zero-Part-3.pdf): one chapter per episode of Part 3, with the proofs: solving SDEs, Feller's condition, the Milstein scheme, Girsanov's theorem, replication, Feynman-Kac, the reflection principle and change of numéraire, all 45 exercises with full answers, the Part 3 checkpoint, a glossary and further reading.
+- [**Stochastic Calculus from Zero, Part 4** (PDF, 30 pages)](book/Stochastic-Calculus-from-Zero-Part-4.pdf): one chapter per episode of Part 4, with the proofs: the HJM drift condition, Hull-White as HJM, the compensated Poisson martingale, Merton's formula and the capstone's four routes, all 15 exercises with full answers, the Part 4 checkpoint, a glossary for the whole series and further reading.
 
 ## Run the notebooks
 
 **In Google Colab**, click its **Open in Colab** button above and run the cells in order. Parts 1 and 2 need only
-numpy, pandas and matplotlib; Part 3's notebooks start with a cell that installs QuantLib, and Episode 18's with a cell
-that writes its data file.
+numpy, pandas and matplotlib; Parts 3 and 4 start with a cell that installs QuantLib, and Episodes 18, 26 and 28 with a
+cell that writes their data file.
 
 **On your own computer:**
 
@@ -90,13 +100,16 @@ to it; git ignores it. Simulations use fixed random seeds, so they repeat exactl
   and every path and toss is simulated.
 - Episode 18 uses the cash rate target from the Reserve Bank of Australia's Statistical Table F1 (RBA-sourced columns
   only). Source: RBA 2026. The RBA publishes these data free of charge and does not endorse this material.
+- Part 4 uses Series 1's illustrative AONIA curve (`quotes_illustrative.csv`, valued 25 September 2026), Hull-White
+  parameters from Series 4's illustrative calibration, and a made-up jump-diffusion share. None of it is market data.
 
 ## Further reading
 
 The notebooks and books are written fresh, but the subject has excellent textbooks, and these make good companions:
 Blitzstein and Hwang, *Introduction to Probability* (free online); Shreve, *Stochastic Calculus for Finance I* and *II*;
 Neftci, *An Introduction to the Mathematics of Financial Derivatives*; Glasserman, *Monte Carlo Methods in Financial
-Engineering*; Brigo and Mercurio, *Interest Rate Models*. None of their examples or exercises are used here.
+Engineering*; Brigo and Mercurio, *Interest Rate Models*; Cont and Tankov, *Financial Modelling with Jump Processes*.
+None of their examples or exercises are used here.
 
 ## Licence
 
