@@ -1,5 +1,0 @@
-QuantLib==1.43
-numpy
-pandas
-matplotlib
-jupyterlab
