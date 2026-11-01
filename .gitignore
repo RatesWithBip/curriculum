@@ -2,6 +2,7 @@
 **/notebooks/*.csv
 **/notebooks/data/
 **/notebooks/outputs.json
+**/notebooks/build/
 
 .ipynb_checkpoints/
 __pycache__/
