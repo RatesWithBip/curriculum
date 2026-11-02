@@ -1,12 +1,12 @@
 # Stochastic Calculus, Step by Step
 
-<img src="book/cover-part-3.jpg" alt="Stochastic Calculus, Step by Step, Part 3: Brownian Motion and the Itô Integral cover" width="120" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus, Step by Step, Part 2: Discrete Models cover" width="120" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus, Step by Step, Part 1: Maths Foundations cover" width="120" align="right">
+<img src="book/cover-part-4.jpg" alt="Stochastic Calculus, Step by Step, Part 4: Continuous-Time Pricing and Numerical Methods cover" width="120" align="right"><img src="book/cover-part-3.jpg" alt="Stochastic Calculus, Step by Step, Part 3: Brownian Motion and the Itô Integral cover" width="120" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus, Step by Step, Part 2: Discrete Models cover" width="120" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus, Step by Step, Part 1: Maths Foundations cover" width="120" align="right">
 
 From school calculus to the Black-Scholes formula, one careful step at a time, with Python. Written for readers
 learning on their own, without a teacher to fill the gaps: every new idea is defined before it is used, explained in
 words, tried on a small example, and then derived one line at a time. All you need to start is school algebra.
 
-The course has five parts, and the first three are here:
+The course has five parts, and the first four are here:
 
 - **Part 1: Maths Foundations** (Lessons 1-6): the calculus you need (derivatives, the chain rule, Taylor's theorem,
   integrals, e and ln), partial derivatives and the two-variable Taylor expansion, probability (expectation, variance,
@@ -18,8 +18,11 @@ The course has five parts, and the first three are here:
 - **Part 3: Brownian Motion and the Itô Integral** (Lessons 13-18): Brownian motion from a random walk, quadratic
   variation, the Itô integral, Itô's lemma, geometric Brownian motion and Euler's method, and the tools for spotting
   martingales.
+- **Part 4: Continuous-Time Pricing and Numerical Methods** (Lessons 19-30): the Black-Scholes equation and formula, the
+  Greeks, Monte Carlo and binomial checks, the trinomial tree, delta hedging, Girsanov's theorem, risk-neutral pricing,
+  change of numéraire, Feynman-Kac, finite differences and how to choose a method.
 
-Parts 4 and 5 follow: continuous-time pricing and numerical methods, and extensions.
+Part 5 follows: extensions.
 
 Each lesson has a video, a notebook here and a chapter in the book. Every number in the videos and the books is
 computed by these notebooks. Each notebook ends with the lesson's eight exercises (six by hand, two in code); the full
@@ -58,6 +61,23 @@ solutions are in a separate book for each part, so you can try them first.
 | 17 | **Geometric Brownian Motion**<br>Solving the share's equation | [s5e17_geometric_brownian_motion.ipynb](notebooks/s5e17_geometric_brownian_motion.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e17_geometric_brownian_motion.ipynb) |
 | 18 | **The Itô Toolbox**<br>Martingale tests, exponentials and the product rule | [s5e18_ito_toolbox.ipynb](notebooks/s5e18_ito_toolbox.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e18_ito_toolbox.ipynb) |
 
+## Part 4: Continuous-Time Pricing and Numerical Methods
+
+| # | Lesson | Notebook | |
+|---|---|---|---|
+| 19 | **The Black-Scholes Equation**<br>Hedging away the randomness | [s5e19_bs_pde.ipynb](notebooks/s5e19_bs_pde.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e19_bs_pde.ipynb) |
+| 20 | **The Black-Scholes Formula**<br>Two terms and one completed square | [s5e20_bs_formula.ipynb](notebooks/s5e20_bs_formula.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e20_bs_formula.ipynb) |
+| 21 | **The Greeks**<br>How the price moves, and what hedging costs | [s5e21_greeks.ipynb](notebooks/s5e21_greeks.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e21_greeks.ipynb) |
+| 22 | **Checking the Formula Numerically**<br>Error bars, jumpy trees and the American put | [s5e22_numerical_checks.ipynb](notebooks/s5e22_numerical_checks.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e22_numerical_checks.ipynb) |
+| 23 | **The Trinomial Tree**<br>What a third branch really buys you | [s5e23_trinomial_tree.ipynb](notebooks/s5e23_trinomial_tree.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e23_trinomial_tree.ipynb) |
+| 24 | **Delta Hedging in Practice**<br>What's left when you can't trade every instant | [s5e24_delta_hedging.ipynb](notebooks/s5e24_delta_hedging.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e24_delta_hedging.ipynb) |
+| 25 | **Girsanov's Theorem**<br>Same paths, new weights | [s5e25_girsanov.ipynb](notebooks/s5e25_girsanov.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e25_girsanov.ipynb) |
+| 26 | **Risk-Neutral Pricing**<br>Why the price is a discounted average | [s5e26_risk_neutral_pricing.ipynb](notebooks/s5e26_risk_neutral_pricing.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e26_risk_neutral_pricing.ipynb) |
+| 27 | **Change of Numéraire**<br>What N(d₊) really is | [s5e27_numeraire.ipynb](notebooks/s5e27_numeraire.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e27_numeraire.ipynb) |
+| 28 | **The Feynman-Kac Theorem**<br>Where averages and equations meet | [s5e28_feynman_kac.ipynb](notebooks/s5e28_feynman_kac.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e28_feynman_kac.ipynb) |
+| 29 | **Finite Differences**<br>Grids, and why they blow up | [s5e29_finite_differences.ipynb](notebooks/s5e29_finite_differences.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e29_finite_differences.ipynb) |
+| 30 | **Choosing a Method**<br>Grids, paths, and when to use each | [s5e30_choosing_a_method.ipynb](notebooks/s5e30_choosing_a_method.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e30_choosing_a_method.ipynb) |
+
 ## The books
 
 - [**Part 1: Maths Foundations** (PDF, 82 pages)](book/Stochastic-Calculus-Step-by-Step-Part-1.pdf): one chapter per lesson. Every idea is defined, explained and tried on a small example before it is derived, line by line, with the reason for each step; then worked numbers, what to remember, common mistakes, eight exercises and a self-test. Ends with a formula sheet and a glossary.
@@ -66,6 +86,8 @@ solutions are in a separate book for each part, so you can try them first.
 - [**Part 2: Solutions** (PDF, 38 pages)](book/Stochastic-Calculus-Step-by-Step-Part-2-Solutions.pdf): every Part 2 exercise and self-test question, worked in full in the same way.
 - [**Part 3: Brownian Motion and the Itô Integral** (PDF, 57 pages)](book/Stochastic-Calculus-Step-by-Step-Part-3.pdf): the steps shrink to nothing: Brownian motion, quadratic variation, the Itô integral, Itô's lemma, geometric Brownian motion and Euler's method, and the tools for spotting martingales. Same layout as Part 1.
 - [**Part 3: Solutions** (PDF, 29 pages)](book/Stochastic-Calculus-Step-by-Step-Part-3-Solutions.pdf): every Part 3 exercise and self-test question, worked in full in the same way.
+- [**Part 4: Continuous-Time Pricing and Numerical Methods** (PDF, 101 pages)](book/Stochastic-Calculus-Step-by-Step-Part-4.pdf): the Black-Scholes equation and formula, the Greeks, trees, delta hedging, Girsanov's theorem, risk-neutral pricing, change of numéraire, Feynman-Kac, finite differences and how to choose a method. Same layout as Part 1.
+- [**Part 4: Solutions** (PDF, 70 pages)](book/Stochastic-Calculus-Step-by-Step-Part-4-Solutions.pdf): every Part 4 exercise and self-test question, worked in full in the same way.
 
 Try each exercise before you open the solutions.
 
@@ -88,16 +110,17 @@ next to it; git ignores it. Simulations use a fixed random seed (2026), so they 
 
 The whole course uses one made-up example: a share at 100, a strike of 105, a risk-free rate of 3% (continuously
 compounded), a volatility of 20% and a horizon of one year. Part 2 adds a small teaching tree on those numbers: the share
-moves up or down 10% every four months, with a made-up real-world chance of 0.6 of going up. Every path is simulated.
-There is no market data.
+moves up or down 10% every four months, with a made-up real-world chance of 0.6 of going up. Part 4 adds a made-up
+real-world expected return of 8%. Every path is simulated. There is no market data.
 
 ## Further reading
 
 The notebooks and books are written fresh, but these make good companions: any first-year calculus text for Lessons 1
 and 2; Blitzstein and Hwang, *Introduction to Probability* (free online); Shreve, *Stochastic Calculus for Finance I*,
 Chapters 1 to 4, for Part 2; Baxter and Rennie, *Financial Calculus*, Chapter 2; Shreve, *Stochastic Calculus for
-Finance II*, Chapters 3 and 4, for Part 3; and Mikosch, *Elementary Stochastic Calculus with Finance in View*, for
-Parts 1 and 3. None of their examples or exercises are used here.
+Finance II*, Chapters 3 and 4, for Part 3, and Chapters 4 to 6 and 9 for Part 4; Mikosch, *Elementary Stochastic
+Calculus with Finance in View*, for Parts 1 and 3; and Glasserman, *Monte Carlo Methods in Financial Engineering*, for
+Lessons 22 and 30. None of their examples or exercises are used here.
 
 ## Licence
 
