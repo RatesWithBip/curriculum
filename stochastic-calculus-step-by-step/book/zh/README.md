@@ -1,8 +1,8 @@
 # 随机微积分，一步一步（中文版）
 
-<img src="cover-part-4.jpg" alt="随机微积分，一步一步，第 4 部分：连续时间定价与数值方法封面" width="120" align="right"><img src="cover-part-3.jpg" alt="随机微积分，一步一步，第 3 部分：布朗运动与伊藤积分封面" width="120" align="right"><img src="cover-part-2.jpg" alt="随机微积分，一步一步，第 2 部分：离散模型封面" width="120" align="right"><img src="cover.jpg" alt="随机微积分，一步一步，第 1 部分：数学基础封面" width="120" align="right">
+<img src="cover-part-5.jpg" alt="随机微积分，一步一步，第 5 部分：数学工具箱封面" width="120" align="right"><img src="cover-part-4.jpg" alt="随机微积分，一步一步，第 4 部分：连续时间定价与数值方法封面" width="120" align="right"><img src="cover-part-3.jpg" alt="随机微积分，一步一步，第 3 部分：布朗运动与伊藤积分封面" width="120" align="right"><img src="cover-part-2.jpg" alt="随机微积分，一步一步，第 2 部分：离散模型封面" width="120" align="right"><img src="cover.jpg" alt="随机微积分，一步一步，第 1 部分：数学基础封面" width="120" align="right">
 
-《随机微积分，一步一步》（*Stochastic Calculus, Step by Step*）前四部分的简体中文版：四本书，每本各配一册完整解答。课程从中学微积分一直讲到 Black-Scholes 公式，专为自学的读者而写，身边没有老师替你补上缺口：每个新概念在使用之前都先定义，用文字解释，在小例子上试一试，然后一行一行地推导，每一步都说明理由。开始学习只需要中学代数。
+《随机微积分，一步一步》（*Stochastic Calculus, Step by Step*）前五部分的简体中文版：五本书，每本各配一册完整解答。课程从中学微积分一直讲到 Black-Scholes 公式及其背后的数值工具，专为自学的读者而写，身边没有老师替你补上缺口：每个新概念在使用之前都先定义，用文字解释，在小例子上试一试，然后一行一行地推导，每一步都说明理由。开始学习只需要中学代数。
 
 中文版与[英文版](../../#the-books)内容相同，书中的每个数字、表格和图都一样。
 
@@ -16,6 +16,8 @@
 - [**第 3 部分：解答**（PDF，29 页）](Stochastic-Calculus-Step-by-Step-Part-3-Solutions-zh.pdf)：第 3 部分的每道练习和自测题，以同样的方式完整解出。
 - [**第 4 部分：连续时间定价与数值方法**（PDF，105 页）](Stochastic-Calculus-Step-by-Step-Part-4-zh.pdf)：Black-Scholes 方程与公式、希腊字母、树、delta 对冲、Girsanov 定理、风险中性定价、计价单位变换、Feynman-Kac、有限差分，以及如何选择方法。版式同第 1 部分。
 - [**第 4 部分：解答**（PDF，74 页）](Stochastic-Calculus-Step-by-Step-Part-4-Solutions-zh.pdf)：第 4 部分的每道练习和自测题，以同样的方式完整解出。
+- [**第 5 部分：数学工具箱**（PDF，56 页）](Stochastic-Calculus-Step-by-Step-Part-5-zh.pdf)：后面各部分所需的工具，每件都亲手建立，并用你已经知道的答案检验：协方差矩阵与 Cholesky 分解、常微分方程与 Riccati 方程、复数与傅里叶定价、求根、插值、求积与最小二乘拟合、回归、前向方程与二维 ADI 格式。版式同第 1 部分。
+- [**第 5 部分：解答**（PDF，37 页）](Stochastic-Calculus-Step-by-Step-Part-5-Solutions-zh.pdf)：第 5 部分的每道练习和自测题，以同样的方式完整解出。
 
 看解答之前，请先自己试着做每道练习。
 

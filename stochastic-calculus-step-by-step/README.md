@@ -108,7 +108,7 @@ solutions are in a separate book for each part, so you can try them first.
 
 Try each exercise before you open the solutions.
 
-**中文版 (Chinese edition):** the books for Parts 1 to 4 are also available in Simplified Chinese, as *随机微积分，一步一步*, in [book/zh](book/zh/).
+**中文版 (Chinese edition):** the books for Parts 1 to 5 are also available in Simplified Chinese, as *随机微积分，一步一步*, in [book/zh](book/zh/).
 
 ## Run the notebooks
 
