@@ -1,12 +1,12 @@
 # Stochastic Calculus, Step by Step
 
-<img src="book/cover-part-4.jpg" alt="Stochastic Calculus, Step by Step, Part 4: Continuous-Time Pricing and Numerical Methods cover" width="120" align="right"><img src="book/cover-part-3.jpg" alt="Stochastic Calculus, Step by Step, Part 3: Brownian Motion and the Itô Integral cover" width="120" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus, Step by Step, Part 2: Discrete Models cover" width="120" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus, Step by Step, Part 1: Maths Foundations cover" width="120" align="right">
+<img src="book/cover-part-5.jpg" alt="Stochastic Calculus, Step by Step, Part 5: The Maths Toolkit cover" width="120" align="right"><img src="book/cover-part-4.jpg" alt="Stochastic Calculus, Step by Step, Part 4: Continuous-Time Pricing and Numerical Methods cover" width="120" align="right"><img src="book/cover-part-3.jpg" alt="Stochastic Calculus, Step by Step, Part 3: Brownian Motion and the Itô Integral cover" width="120" align="right"><img src="book/cover-part-2.jpg" alt="Stochastic Calculus, Step by Step, Part 2: Discrete Models cover" width="120" align="right"><img src="book/cover.jpg" alt="Stochastic Calculus, Step by Step, Part 1: Maths Foundations cover" width="120" align="right">
 
 From school calculus to the Black-Scholes formula, one careful step at a time, with Python. Written for readers
 learning on their own, without a teacher to fill the gaps: every new idea is defined before it is used, explained in
 words, tried on a small example, and then derived one line at a time. All you need to start is school algebra.
 
-The course has five parts, and the first four are here:
+The course has eight parts, and the first five are here:
 
 - **Part 1: Maths Foundations** (Lessons 1-6): the calculus you need (derivatives, the chain rule, Taylor's theorem,
   integrals, e and ln), partial derivatives and the two-variable Taylor expansion, probability (expectation, variance,
@@ -21,8 +21,13 @@ The course has five parts, and the first four are here:
 - **Part 4: Continuous-Time Pricing and Numerical Methods** (Lessons 19-30): the Black-Scholes equation and formula, the
   Greeks, Monte Carlo and binomial checks, the trinomial tree, delta hedging, Girsanov's theorem, risk-neutral pricing,
   change of numéraire, Feynman-Kac, finite differences and how to choose a method.
+- **Part 5: The Maths Toolkit** (Lessons 31-35): the tools the later parts need, each built by hand and checked against a
+  result from Parts 1 to 4: covariance matrices, Cholesky and PCA; ODEs, Riccati equations and Runge-Kutta; complex
+  numbers, characteristic functions and Fourier pricing; root finding, interpolation, quadrature and least squares;
+  regression, the forward Kolmogorov equation and ADI schemes in two dimensions.
 
-Part 5 follows: extensions.
+Parts 6 to 8 follow: several assets and stochastic interest rates (Part 6); exotic options, stochastic volatility and
+term-structure models (Part 7); and further extensions (Part 8).
 
 Each lesson has a video, a notebook here and a chapter in the book. Every number in the videos and the books is
 computed by these notebooks. Each notebook ends with the lesson's eight exercises (six by hand, two in code); the full
@@ -78,6 +83,16 @@ solutions are in a separate book for each part, so you can try them first.
 | 29 | **Finite Differences**<br>Grids, and why they blow up | [s5e29_finite_differences.ipynb](notebooks/s5e29_finite_differences.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e29_finite_differences.ipynb) |
 | 30 | **Choosing a Method**<br>Grids, paths, and when to use each | [s5e30_choosing_a_method.ipynb](notebooks/s5e30_choosing_a_method.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e30_choosing_a_method.ipynb) |
 
+## Part 5: The Maths Toolkit
+
+| # | Lesson | Notebook | |
+|---|---|---|---|
+| 31 | **Linear Algebra for Several Risks**<br>Covariance matrices, Cholesky and PCA | [s5e31_linear_algebra.ipynb](notebooks/s5e31_linear_algebra.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e31_linear_algebra.ipynb) |
+| 32 | **Ordinary Differential Equations**<br>Integrating factors, Riccati and Runge-Kutta | [s5e32_odes.ipynb](notebooks/s5e32_odes.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e32_odes.ipynb) |
+| 33 | **Complex Numbers and Fourier Transforms**<br>Characteristic functions and pricing by inversion | [s5e33_fourier.ipynb](notebooks/s5e33_fourier.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e33_fourier.ipynb) |
+| 34 | **Numerical Methods**<br>Roots, interpolation, integration and fitting | [s5e34_numerical_methods.ipynb](notebooks/s5e34_numerical_methods.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e34_numerical_methods.ipynb) |
+| 35 | **Regression and PDEs, Further**<br>Kernel regression, Fokker-Planck and ADI | [s5e35_regression_and_pdes.ipynb](notebooks/s5e35_regression_and_pdes.ipynb) | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RatesWithBip/curriculum/blob/main/stochastic-calculus-step-by-step/notebooks/s5e35_regression_and_pdes.ipynb) |
+
 ## The books
 
 - [**Part 1: Maths Foundations** (PDF, 82 pages)](book/Stochastic-Calculus-Step-by-Step-Part-1.pdf): one chapter per lesson. Every idea is defined, explained and tried on a small example before it is derived, line by line, with the reason for each step; then worked numbers, what to remember, common mistakes, eight exercises and a self-test. Ends with a formula sheet and a glossary.
@@ -88,10 +103,12 @@ solutions are in a separate book for each part, so you can try them first.
 - [**Part 3: Solutions** (PDF, 29 pages)](book/Stochastic-Calculus-Step-by-Step-Part-3-Solutions.pdf): every Part 3 exercise and self-test question, worked in full in the same way.
 - [**Part 4: Continuous-Time Pricing and Numerical Methods** (PDF, 101 pages)](book/Stochastic-Calculus-Step-by-Step-Part-4.pdf): the Black-Scholes equation and formula, the Greeks, trees, delta hedging, Girsanov's theorem, risk-neutral pricing, change of numéraire, Feynman-Kac, finite differences and how to choose a method. Same layout as Part 1.
 - [**Part 4: Solutions** (PDF, 70 pages)](book/Stochastic-Calculus-Step-by-Step-Part-4-Solutions.pdf): every Part 4 exercise and self-test question, worked in full in the same way.
+- [**Part 5: The Maths Toolkit** (PDF, 59 pages)](book/Stochastic-Calculus-Step-by-Step-Part-5.pdf): the tools the later parts need, each built by hand and checked against a number from Parts 1 to 4: covariance matrices and Cholesky, ODEs and Riccati equations, characteristic functions and Fourier pricing, root finding, interpolation, quadrature and least squares, regression, the forward equation and ADI schemes. Same layout as Part 1.
+- [**Part 5: Solutions** (PDF, 37 pages)](book/Stochastic-Calculus-Step-by-Step-Part-5-Solutions.pdf): every Part 5 exercise and self-test question, worked in full in the same way.
 
 Try each exercise before you open the solutions.
 
-**中文版 (Chinese edition):** all 8 books are also available in Simplified Chinese, as *随机微积分，一步一步*, in [book/zh](book/zh/).
+**中文版 (Chinese edition):** the books for Parts 1 to 4 are also available in Simplified Chinese, as *随机微积分，一步一步*, in [book/zh](book/zh/).
 
 ## Run the notebooks
 
@@ -113,7 +130,8 @@ next to it; git ignores it. Simulations use a fixed random seed (2026), so they 
 The whole course uses one made-up example: a share at 100, a strike of 105, a risk-free rate of 3% (continuously
 compounded), a volatility of 20% and a horizon of one year. Part 2 adds a small teaching tree on those numbers: the share
 moves up or down 10% every four months, with a made-up real-world chance of 0.6 of going up. Part 4 adds a made-up
-real-world expected return of 8%. Every path is simulated. There is no market data.
+real-world expected return of 8%. Part 5 adds a second made-up share, a made-up Vasicek interest rate and a few small
+made-up curves and quotes. Every path is simulated. There is no market data.
 
 ## Further reading
 
@@ -122,7 +140,9 @@ and 2; Blitzstein and Hwang, *Introduction to Probability* (free online); Shreve
 Chapters 1 to 4, for Part 2; Baxter and Rennie, *Financial Calculus*, Chapter 2; Shreve, *Stochastic Calculus for
 Finance II*, Chapters 3 and 4, for Part 3, and Chapters 4 to 6 and 9 for Part 4; Mikosch, *Elementary Stochastic
 Calculus with Finance in View*, for Parts 1 and 3; and Glasserman, *Monte Carlo Methods in Financial Engineering*, for
-Lessons 22 and 30. None of their examples or exercises are used here.
+Lessons 22 and 30. For Part 5: Strang, *Introduction to Linear Algebra*; Press, Teukolsky, Vetterling and Flannery,
+*Numerical Recipes*; Gatheral, *The Volatility Surface*, for Fourier pricing; and Duffy, *Finite Difference Methods in
+Financial Engineering*, for ADI. None of their examples or exercises are used here.
 
 ## Licence
 
