@@ -91,6 +91,8 @@ solutions are in a separate book for each part, so you can try them first.
 
 Try each exercise before you open the solutions.
 
+**中文版 (Chinese edition):** all 8 books are also available in Simplified Chinese, as *随机微积分，一步一步*, in [book/zh](book/zh/).
+
 ## Run the notebooks
 
 **In Google Colab**, click a notebook's **Open in Colab** button above and run the cells in order. The notebooks need
